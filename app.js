@@ -10,7 +10,7 @@ var appEnv = cfenv.getAppEnv();
 //Setup Cloudant Service .
 cloudantService = appEnv.getService("myMicroservicesCloudant");
 
-//Setup middleware.
+//Setup middleware .
 var app = express();
 app.use(cors());
 app.use(bodyParser.json());
